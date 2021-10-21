@@ -1,2 +1,4 @@
 # quant_random_wlak
-My answer to a puzzle question of a Quantitative Researcher position
+# Blog posts
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
