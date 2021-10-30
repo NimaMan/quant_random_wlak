@@ -1,0 +1,5 @@
+baseURL = "https://random_walk_question.github.io/"
+languageCRode = "en-us"
+title = "Mean Absorbing Time in a Two Dimensional Random Walk"
+theme = "anatole"
+enableEmoji = true
