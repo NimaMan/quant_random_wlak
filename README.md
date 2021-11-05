@@ -64,19 +64,19 @@ nearest point in ```\(Z^A\)``` to position ```\((i, j)\)```
 ```\[(i^N, j^N) = \mathop{\mathrm{arg\,min}}_{(u, v) \in Z^{A}} |u - i| + |v - j|,\]```
 where ```\(|i|, |j| \geq 1\)```. I cluster the states into the following sets:
 
-```
+$$
 \[\begin{aligned}
     Z^{0} &=  \{(0, 0)\}, \nonumber \\ 
     Z^{-1} &=  \{(1, 0), (-1, 0), (0, 1), (0, -1)\}, \nonumber \\
     Z^{-2} &=  \{(1, 1), (1, -1), (-1, 1), (-1, -1)\},\nonumber  \\
     Z^{d} &=  \{(i, j): |i - i^N| + |j - j^N| = d \}, \  d\geq 1.\end{aligned}\]
-```
+$$
 One-step transition from each of these sets results in moving to the
 neighboring sets. Following the Markovian property and symmetric nature
 of the problem ```\(V^\gamma = V((i, j)), \ \forall (i, j) \in Z^\gamma\)```
 where ```\(\gamma \in \{-2, -1, 0, 1, 2, \dots \}\)```. The mean number of steps
 to enter ```\(Z^A\)``` starting from a point in ```\(Z^\gamma\)``` can be written as
-```
+$$
 \[\begin{aligned}
 \label{r1}
     V^{-2} &=  1 + \frac{1}{2}V^{-1} + \frac{1}{2}V^{1}, \nonumber \\
@@ -84,7 +84,7 @@ to enter ```\(Z^A\)``` starting from a point in ```\(Z^\gamma\)``` can be writte
     V^{0} &=  1 + V^{-1}, \nonumber \\ 
     V^{1} &=  1 + \frac{1}{2}V^{-2} +  \frac{1}{2}V^{2},\nonumber \\
     V^{d} &=  1 + \frac{1}{2}V^{d-1} + \frac{1}{2}V^{d+1}, \ \forall \in \{2, 3, \dots\}. \end{aligned}\]
-```
+$$
 After some algebra these equations can be re-written in the following
 form:
 ```
